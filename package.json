@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ./dist --history-api-fallback",
+    "build": "webpack --config webpack.config.prod.js --progress -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Pullen",
